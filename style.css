@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Rokkitt);
+
+/* Mobile Media Query */
+
+@media screen and (min-width: 320px) {
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  /* Mobile View */
+  nav li {
+    margin-left: -32px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  article {
+    float: none;
+    padding: none;
+    margin: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Phablet */
+
+@media screen and (min-width: 480px) {
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  /*  Phablet View  */
+  nav li {
+    margin-left: -32px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  article {
+    float: none;
+    padding: none;
+    margin: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Tablet Media Query */
+
+@media screen and (max-width: 768px) {
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  /* Tablet View */
+  nav li {
+    margin-left: -32px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  article {
+    float: none;
+    padding: none;
+    margin: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 1000px) {
+  h1,
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #058DC5;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #AA5DA3;
+  }
+  p {
+    font-family: 'Rokkitt', serif;
+    color: white;
+  }
+  li {
+    font-family: 'Rokkitt', serif;
+    color: white;
+    list-style: square;
+  }
+  a {
+    text-decoration: none;
+    color: #AA5DA3;
+  }
+  a:hover {
+    color: white;
+  }
+  nav li {
+    color: #AA5DA3;
+    font-family: 'Rokkitt', serif;
+    list-style: none;
+    padding: 8px;
+    text-align: center;
+    background: #FE92B9;
+    display: inline;
+    width: 100px;
+    border-radius: 5px;
+  }
+  nav li:hover {
+    color: white;
+    background: #058DC5;
+    border-radius: 50px;
+    transition: all 1s;
+  }
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  .container {
+    background: rgba(254, 146, 185, 0.56);
+    margin: 0 auto;
+    width: 90%;
+    /* 1000px  == 100%. for good visual design, reduce max-width  */
+    /* for good visual design, reduce max-width */
+    max-width: 90%;
+    border-radius: 5%;
+  }
+  header {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: -5px;
+  }
+  article {
+    background: rgba(254, 146, 185, 0.68);
+    float: right;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 1.6666667%;
+    /* 10px / 600px  = .016666667% */
+    width: 54%;
+    /* 540px / 1000px  = 54% */
+    border-radius: 1%;
+  }
+  .biography {
+    background: rgba(254, 146, 185, 0.68);
+    float: left;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 2.5%;
+    /* 10px / 400px  = .025% */
+    width: 33%;
+    /* 330px / 1000px  = 33% */
+    border-radius: 1%;
+  }
+  img {
+    width: 100%;
+    border-radius: 5%;
+  }
+  footer {
+    clear: both;
+    padding: 10px;
+   
+  }
+}
+
+/* Contact Form */
+
+label, input, textarea {
+  font-family: 'Raleway', sans-serif;
+  color: #AA5DA3;
+  display: block;
+  margin: 1em;
+  
+}
+
+input[type="text"] {
+  
+  border: 0;
+  padding: 1em;
+}
+
+input[type="email"] {
+ 
+  border: 0;
+  padding: 1em;
+  
+}
+
+input[type="submit"] {
+  background: white;
+}
+
+:focus {
+  background: #FE92B9;
+  transition: background .25s;
+  color: white;
+}
+
+button {
+  background: #FFDED6;
+  border: none;
+  color: #FE92B9;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: #E7AFE0;
+  background: #E7FDFB;
+  border-radius: 50%;
+}
