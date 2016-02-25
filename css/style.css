@@ -1,90 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Rokkitt);
 
-/* Mobile Media Query */
-
-@media screen and (min-width: 320px) {
-  body {
-    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
-  }
-  /* Mobile View */
-  nav li {
-    margin-left: -32px;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-  }
-  article {
-    float: none;
-    padding: none;
-    margin: auto;
-  }
-  .biography {
-    float: none;
-    padding: none;
-    margin: auto;
-    margin-bottom: 20px;
-  }
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-
-/* Phablet */
-
-@media screen and (min-width: 480px) {
-  body {
-    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
-  }
-  /*  Phablet View  */
-  nav li {
-    margin-left: -32px;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-  }
-  article {
-    float: none;
-    padding: none;
-    margin: auto;
-  }
-  .biography {
-    float: none;
-    padding: none;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-}
-
-
-/* Tablet Media Query */
-
-@media screen and (max-width: 768px) {
-  body {
-    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
-  }
-  /* Tablet View */
-  nav li {
-    margin-left: -32px;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-  }
-  article {
-    float: none;
-    padding: none;
-    margin: auto;
-  }
-  .biography {
-    float: none;
-    padding: none;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-}
-
-
-/* Desktop */
-
-@media screen and (min-width: 1000px) {
   h1,
   h2 {
     font-family: 'Raleway', sans-serif;
@@ -94,6 +15,11 @@
     font-family: 'Raleway', sans-serif;
     color: #AA5DA3;
   }
+
+h4 {
+  color: #EB7194;
+}
+
   p {
     font-family: 'Rokkitt', serif;
     color: white;
@@ -117,8 +43,8 @@
     padding: 8px;
     text-align: center;
     background: #FE92B9;
-    display: inline;
-    width: 100px;
+    display: block;
+    
     border-radius: 5px;
   }
   nav li:hover {
@@ -143,15 +69,19 @@
     margin: 10px;
     padding: 10px;
     margin-bottom: -5px;
+    
   }
-  article {
+article {
+ background: rgba(254, 146, 185, 0.68);
+} 
+  .resume {
     background: rgba(254, 146, 185, 0.68);
     float: right;
     padding: 1%;
     /* 10px / 1000  1% = */
     margin: 1.6666667%;
     /* 10px / 600px  = .016666667% */
-    width: 54%;
+    width: 62%;
     /* 540px / 1000px  = 54% */
     border-radius: 1%;
   }
@@ -162,7 +92,7 @@
     /* 10px / 1000  1% = */
     margin: 2.5%;
     /* 10px / 400px  = .025% */
-    width: 33%;
+    width: 25%;
     /* 330px / 1000px  = 33% */
     border-radius: 1%;
   }
@@ -176,6 +106,248 @@
    
   }
 }
+
+
+/* Mobile Media Query */
+
+@media screen and (min-width: 320px) {
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  /* Mobile View */
+  nav ul {
+    display: inline;
+    list-style: none;
+  }
+  
+  
+  nav li {
+    
+    display: list-item;
+   
+    margin-bottom: 10px;
+    width: auto;
+  }
+ .resume {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+    width: auto;
+  }
+}
+
+
+/* Phablet */
+
+@media screen and (min-width: 480px) {
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  /*  Phablet View  */
+ nav ul {
+    display: inline;
+    list-style: none;
+  }
+  
+  
+  nav li {
+    
+    display: list-item;
+    
+    margin-bottom: 10px;
+    width: auto;
+  }
+ .resume {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+    width: auto;
+  }
+}
+
+
+/* Tablet Media Query */
+
+@media screen and (max-width: 900px) {
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  /* Tablet View */
+ nav ul {
+    display: inline;
+    list-style: none;
+  }
+  
+  nav li {
+    
+    display: list-item;
+   
+    margin-bottom: 10px;
+    width: auto;
+  }
+  .resume {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+    width: auto;
+  }
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 1000px) {
+ 
+  h1,
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #058DC5;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #AA5DA3;
+  }
+  p {
+    font-family: 'Rokkitt', serif;
+    color: white;
+  }
+  li {
+    font-family: 'Rokkitt', serif;
+    color: white;
+    list-style: square;
+  }
+  
+  nav {
+    float: left;
+    
+   width:100%;
+   
+   overflow:hidden;
+   position:relative;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #AA5DA3;
+   display:block;
+   margin:0 0 0 1px;
+   
+   
+   text-decoration:none;
+   line-height:1.3em;
+    
+  }
+a:hover {
+    color: white;
+  }
+  nav ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+    list-style: none;
+  }
+  nav li {
+    color: #AA5DA3;
+    font-family: 'Rokkitt', serif;
+    list-style: none;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    background: #FE92B9;
+    display: inline-block;
+    border-radius: 5px;
+     display:block;
+   float:left;
+   list-style:none;
+   
+   position:relative;
+   right:50%;
+    
+  }
+  nav li:hover {
+    color: white;
+    background: #058DC5;
+    border-radius: 50px;
+    transition: all 1s;
+  }
+  body {
+    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+  }
+  .container {
+    background: rgba(254, 146, 185, 0.56);
+    margin: 0 auto;
+    width: 90%;
+    
+    max-width: 90%;
+    border-radius: 5%;
+  }
+  header {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: -5px;
+    
+  }
+  .resume {
+    background: rgba(254, 146, 185, 0.68);
+    float: right;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 1.6666667%;
+    /* 10px / 600px  = .016666667% */
+    width: 67%;
+    /* 540px / 1000px  = 54% */
+    border-radius: 1%;
+    margin-top: -10px;
+  }
+  .biography {
+    background: rgba(254, 146, 185, 0.68);
+    float: left;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 2.5%;
+    /* 10px / 400px  = .025% */
+    width: 20%;
+    /* 330px / 1000px  = 33% */
+    border-radius: 1%;
+    margin-top: -10px;
+  }
+  img {
+    width: 100%;
+    border-radius: 5%;
+  }
+  footer {
+    clear: both;
+    padding: 10px;
+   
+  }
+} 
+  
 
 /* Contact Form */
 
