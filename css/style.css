@@ -73,6 +73,8 @@ h4 {
   }
 article {
  background: rgba(254, 146, 185, 0.68);
+ margin-top: 50px;
+
 } 
   .resume {
     background: rgba(254, 146, 185, 0.68);
@@ -394,4 +396,10 @@ button:hover {
   color: #E7AFE0;
   background: #E7FDFB;
   border-radius: 50%;
+}
+
+form {
+  background: rgba(254, 146, 185, 0.68);
+  padding: 10px;
+  
 }
