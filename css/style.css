@@ -53,7 +53,7 @@ h4 {
     background: #058DC5;
     border-radius: 50px;
     transition: all 1s;
-  }
+}
   body {
     background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
   }
@@ -403,4 +403,121 @@ form {
   background: rgba(254, 146, 185, 0.68);
   padding: 10px;
   
+}
+
+.portfolio {
+  margin-left: 2.7%;
+}
+.description {
+  text-align: center;
+  color: #AA5DA3;
+  margin-top: -30px;
+}
+
+
+
+
+
+.img1 {
+  width: 300px;
+  height: 200px;
+}
+
+.img2 {
+  width: 300px;
+  height: 200px;
+}
+
+.img3 {
+  width: 300px;
+  height: 200px;
+}
+
+.img4 {
+  width: 300px;
+  height: 200px;
+}
+
+.img5 {
+  width: 300px;
+  height: 200px;
+}
+
+.img6 {
+  width: 300px;
+  height: 200px;
+}
+
+/* Thumbnail overlay borrowed from P. Colin Manikoth (http://codepen.io/manikoth/pen/wGwjKm/) */
+figure {
+ 
+  
+  border-radius: 5%;
+  background: #FE92B9;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  display: inline-block;
+  
+}
+
+figcaption {
+  font-family: 'Rokkitt', serif;
+  color: #AA5DA3;
+  background: #FFDED6;
+  bottom: 0;
+  padding: 10px;
+  position: absolute;
+  width: 280px;
+}
+
+/* First Frame  */
+figure figcaption {
+  opacity: 1;
+  bottom: -116px;
+  transition: all 1s;
+}
+
+/* Last Frame */
+figure:hover figcaption {
+  bottom: 0;
+  opacity: 1;
+}
+
+/* Lighbox concept borrowed from Gregory Schier (http://codepen.io/gschier/pen/HCoqh/). */
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(254, 146, 185, 0.68);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 90%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.footer {
+  color:  white;
+  text-align: left;
 }
