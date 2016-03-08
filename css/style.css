@@ -462,7 +462,9 @@ figure:hover figcaption {
 
 .lightbox img {
 	/** Pad the lightbox image */
-	width: auto;
+width: auto;
+	max-height: 90%;
+	margin-top: 2%;
 }
 
 .lightbox:target {
