@@ -99,6 +99,10 @@ article {
     /* 330px / 1000px  = 33% */
     border-radius: 1%;
   }
+ .me {
+    width: 100%;
+    border-right: 5%;
+  }
   img {
     width: 100%;
     border-radius: 5%;
@@ -340,6 +344,12 @@ a:hover {
     border-radius: 1%;
     margin-top: -10px;
   }
+  
+  .me {
+    width: 100%;
+    border-right: 5%;
+  }
+  
   img {
     width: 100%;
     border-radius: 5%;
@@ -354,6 +364,7 @@ a:hover {
 
 .portfolio {
   margin-left: 2.7%;
+  padding: none;
 }
 .description {
   text-align: center;
@@ -467,4 +478,8 @@ figure:hover figcaption {
 .footer {
   color:  white;
   text-align: left;
+}
+
+img {
+  width: auto;
 }
