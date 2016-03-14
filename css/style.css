@@ -55,7 +55,7 @@ h4 {
     transition: all 1s;
 }
   body {
-    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+    background: url("https://github.com/CassandraO/CassandraO.github.io/blob/master/img/bgBLOCK.jpg?raw=true");
   }
   .container {
     background: rgba(254, 146, 185, 0.56);
@@ -191,7 +191,7 @@ article {
 
 @media screen and (max-width: 900px) {
   body {
-    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+    background:;
   }
   /* Tablet View */
  nav ul {
@@ -229,12 +229,18 @@ article {
   h1,
   h2 {
     font-family: 'Raleway', sans-serif;
-    color: #058DC5;
+    color: #e7fdfb;
   }
   h3 {
     font-family: 'Raleway', sans-serif;
-    color: #AA5DA3;
+    color: #FBA7CD;
   }
+  
+  h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #e7fdfb;
+}
+  
   p {
     font-family: 'Rokkitt', serif;
     color: white;
@@ -256,7 +262,7 @@ article {
   
   nav a {
     text-decoration: none;
-    color: #AA5DA3;
+    color: #e7fdfb;
    display:block;
    margin:0 0 0 1px;
    
@@ -286,7 +292,7 @@ a:hover {
     padding: 8px;
     margin: 5px;
     text-align: center;
-    background: #FE92B9;
+    background: rgba(5, 141, 197, 0.5);
     display: inline-block;
     border-radius: 5px;
      display:block;
@@ -303,11 +309,11 @@ a:hover {
     border-radius: 50px;
     transition: all 1s;
   }
-  body {
-    background: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12715297_1289492274401432_6515200098239699594_n.jpg?oh=f425ee477a1c939e592adad41c97d970&oe=57333183");
+ body {
+    background: url("https://github.com/CassandraO/CassandraO.github.io/blob/master/img/bgBLOCK.jpg?raw=true");
   }
   .container {
-    background: rgba(254, 146, 185, 0.56);
+    background: rgba(5, 141, 197, 0.43);
     margin: 0 auto;
     width: 90%;
     
@@ -321,7 +327,7 @@ a:hover {
     
   }
   .resume {
-    background: rgba(254, 146, 185, 0.68);
+    background: rgba(5, 141, 197, 0.5);
     float: right;
     padding: 1%;
     /* 10px / 1000  1% = */
@@ -333,7 +339,7 @@ a:hover {
     margin-top: -10px;
   }
   .biography {
-    background: rgba(254, 146, 185, 0.68);
+    background: rgba(5, 141, 197, 0.5);
     float: left;
     padding: 1%;
     /* 10px / 1000  1% = */
