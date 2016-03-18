@@ -1,1 +1,736 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Rokkitt);
 
+h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #FE92B9;
+}
+
+ 
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #e7fdfb;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #058DC5;
+  }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #EB7194;
+}
+
+  p {
+    font-family: 'Rokkitt', serif;
+    color: white;
+  }
+ li {
+     font-family: 'Rokkitt', serif;
+     color: white;
+     list-style: square;
+   }
+  .home {
+  background: rgba(5, 141, 197, 0.43);
+  border-radius: 5%;
+    
+    padding: 10px;
+}
+  
+  .intro {
+  text-align: center;
+}
+.introlist {
+ display: inline-block; 
+  text-align: left;
+  
+}
+   a {
+     text-decoration: none;
+     color: #e7fdfb;
+   }
+   a:hover {
+     color: white;
+   }
+   nav li {
+     color: #AA5DA3;
+     font-family: 'Rokkitt', serif;
+     list-style: none;
+     padding: 8px;
+     text-align: center;
+     background: rgba(5, 141, 197, 0.43);
+     display: inline;
+     width: 100px;
+    border-radius: 5px;
+   }
+  nav li:hover {
+     color: white;
+     background: #058DC5;
+     border-radius: 50px;
+     transition: all 1s;
+   }
+  body {
+    background: url("https://github.com/CassandraO/CassandraO.github.io/blob/master/img/bgBLOCK.png?raw=true");
+  }
+  .container {
+    background: none;
+    margin: 0 auto;
+    width: 90%;
+    /* 1000px  == 100%. for good visual design, reduce max-width  */
+    /* for good visual design, reduce max-width */
+    max-width: 90%;
+    border-radius: 5%;
+  }
+  header {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: -5px;
+    
+  }
+article {
+ background: rgba(5, 141, 197, 0.43);
+ margin-top: 50px;
+
+} 
+  .resume {
+    background: rgba(5, 141, 197, 0.43);
+    float: right;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 1.6666667%;
+    /* 10px / 600px  = .016666667% */
+    width: 62%;
+    /* 540px / 1000px  = 54% */
+    border-radius: 1%;
+  }
+  .biography {
+    background: rgba(5, 141, 197, 0.43);
+    float: left;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 2.5%;
+    /* 10px / 400px  = .025% */
+    width: 25%;
+    /* 330px / 1000px  = 33% */
+    border-radius: 1%;
+  }
+ .me {
+    width: 100%;
+    border-right: 5%;
+  }
+  img {
+    width: 100%;
+    border-radius: 5%;
+  }
+  footer {
+    clear: both;
+    padding: 10px;
+   
+  }
+}
+
+.description {
+  text-align: center;
+  color: #AA5DA3;
+  margin-top: -30px;
+}  
+  
+  .portfolio {
+  background: rgba(5, 141, 197, 0.43);
+  border-radius: 5%;
+  padding: 10px;
+    padding-bottom: 30px;
+}
+/* Thumbnail overlay borrowed from P. Colin Manikoth (http://codepen.io/manikoth/pen/wGwjKm/) */
+figure {
+  
+  margin: auto;
+   border-radius: 5%;
+  
+   height: 200px;
+   position: relative;
+   overflow: hidden;
+   width: 300px;
+   display: block;
+   max-width: 90%;
+  margin-top: 20px;
+  
+ }
+ 
+ figcaption {
+   font-family: 'Rokkitt', serif;
+   color: #AA5DA3;
+   background: #FFDED6;
+   bottom: 0;
+   padding: 10px;
+  position: absolute;
+   width: 280px;
+ }
+
+ /* First Frame  */
+ figure figcaption {
+   opacity: 1;
+   bottom: -116px;
+   transition: all 1s;
+ }
+ 
+ /* Last Frame */
+ figure:hover figcaption {
+  bottom: 0;
+   opacity: 1;
+ }
+ 
+ /* Lighbox concept borrowed from Gregory Schier (http://codepen.io/gschier/pen/HCoqh/). */
+ 
+ .lightbox {
+ 	/** Default lightbox to hidden */
+ 	display: none;
+ 
+ 	/** Position and style */
+ 	position: fixed;
+ 	z-index: 999;
+ 	width: 100%;
+ 	height: 100%;
+ 	text-align: center;
+ 	top: 0;
+ 	left: 0;
+ 	background: rgba(254, 146, 185, 0.68);
+ }
+ 
+ .lightbox img {
+ 	/** Pad the lightbox image */
+ width: auto;
+ 	max-height: 90%;
+ 	margin-top: 2%;
+}
+ 
+ .lightbox:target {
+ 	/** Remove default browser outline */
+ 	outline: none;
+ 
+ 	/** Unhide lightbox **/
+ 	display: block;
+ }
+
+  .img1 {
+  width: 300px;
+  height: 200px;
+}
+
+.img2 {
+  width: 300px;
+  height: 200px;
+}
+
+.img3 {
+  width: 300px;
+  height: 200px;
+}
+
+.img4 {
+  width: 300px;
+  height: 200px;
+}
+
+.img5 {
+  width: 300px;
+  height: 200px;
+}
+
+.img6 {
+  width: 300px;
+  height: 200px;
+}
+  
+.footer {
+  color:  white;
+  text-align: left;
+}
+/* Mobile Media Query */
+
+@media screen and (min-width: 320px) {
+  body {
+    background: url("https://github.com/CassandraO/CassandraO.github.io/blob/master/img/bgBLOCK.png?raw=true");
+  }
+  /* Mobile View */
+  .description {
+  text-align: center;
+  color: #AA5DA3;
+  margin-top: -30px;
+}  
+  nav ul {
+    display: block;
+    list-style: none;
+    
+  }
+  
+  
+  
+  nav li {
+    
+    display: list-item;
+   
+    margin-bottom: 10px;
+    width: auto;
+  }
+ .resume {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  
+  .portfolio {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  } 
+ 
+}
+.lightbox img {
+ 	/** Pad the lightbox image */
+ width: 100%;
+ 	max-height: 100%;
+ 	margin-top: 2%;
+   
+}
+
+/* Phablet */
+
+@media screen and (min-width: 480px) {
+  body {
+    background: url("https://github.com/CassandraO/CassandraO.github.io/blob/master/img/bgBLOCK.png?raw=true");
+  }
+  /*  Phablet View  */
+ nav ul {
+    display: inline;
+    list-style: none;
+  }
+  
+  
+  nav li {
+    
+    display: list-item;
+    
+    margin-bottom: 10px;
+    width: auto;
+  }
+ .resume {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .portfolio {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+}
+
+
+/* Tablet Media Query */
+
+@media screen and (max-width: 900px) {
+  body {
+    background: url("https://github.com/CassandraO/CassandraO.github.io/blob/master/img/bgBLOCK.png?raw=true");
+  }
+  /* Tablet View */
+ nav ul {
+    display: inline;
+    list-style: none;
+  }
+  
+  nav li {
+    
+    display: list-item;
+   
+    margin-bottom: 10px;
+    width: auto;
+  }
+  .resume {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+  .biography {
+    float: none;
+    padding: none;
+    margin: auto;
+    margin-bottom: 20px;
+    width: auto;
+  }
+   .portfolio {
+    float: none;
+    padding: none;
+    margin: auto;
+    width: auto;
+  }
+  
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 1000px) {
+ 
+  h1 {
+    
+font-family: 'Raleway', sans-serif;
+    color: #FE92B9;
+  }
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #e7fdfb;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #058DC5;
+  }
+  
+  h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #e7fdfb;
+}
+  
+  p {
+    font-family: 'Rokkitt', serif;
+    color: white;
+  }
+  li {
+    font-family: 'Rokkitt', serif;
+    color: white;
+    list-style: square;
+  }
+  
+  nav {
+    float: left;
+    
+   width:100%;
+   
+   overflow:hidden;
+   position:relative;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #e7fdfb;
+   display:block;
+   margin:0 0 0 1px;
+   
+   
+   text-decoration:none;
+   line-height:1.3em;
+    
+  }
+a:hover {
+    color: white;
+  }
+  nav ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+    list-style: none;
+  }
+  nav li {
+    color: #AA5DA3;
+    font-family: 'Rokkitt', serif;
+    list-style: none;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    background: rgba(5, 141, 197, 0.5);
+    display: inline-block;
+    border-radius: 5px;
+     display:block;
+   float:left;
+   list-style:none;
+   
+   position:relative;
+   right:50%;
+    
+  }
+  nav li:hover {
+    color: white;
+    background: #058DC5;
+    border-radius: 50px;
+    transition: all 1s;
+  }
+ body {
+    background: url("https://github.com/CassandraO/CassandraO.github.io/blob/master/img/bgBLOCK.png?raw=true");
+  }
+  .container {
+    background: none;
+    margin: 0 auto;
+    width: 90%;
+    
+    max-width: 90%;
+    border-radius: 5%;
+  }
+  header {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: -5px;
+    
+  }
+  .resume {
+    background: rgba(5, 141, 197, 0.5);
+    float: right;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 1.6666667%;
+    /* 10px / 600px  = .016666667% */
+    width: 67%;
+    /* 540px / 1000px  = 54% */
+    border-radius: 1%;
+    margin-top: -10px;
+  }
+  .biography {
+    background: rgba(5, 141, 197, 0.5);
+    float: left;
+    padding: 1%;
+    /* 10px / 1000  1% = */
+    margin: 2.5%;
+    /* 10px / 400px  = .025% */
+    width: 20%;
+    /* 330px / 1000px  = 33% */
+    border-radius: 1%;
+    margin-top: -10px;
+  }
+  
+  .me {
+    width: 100%;
+    border-right: 5%;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 5%;
+  }
+  footer {
+    clear: both;
+    padding: 10px;
+   
+  }
+
+.description {
+  text-align: center;
+  color: #AA5DA3;
+  margin-top: -30px;
+}  
+  
+  .portfolio {
+  background: rgba(5, 141, 197, 0.43);
+  border-radius: 5%;
+  padding: 10px;
+    padding-bottom: 30px;
+}
+/* Thumbnail overlay borrowed from P. Colin Manikoth (http://codepen.io/manikoth/pen/wGwjKm/) */
+figure {
+  
+  margin: auto;
+   border-radius: 5%;
+  
+   height: 200px;
+   position: relative;
+   overflow: hidden;
+   width: 300px;
+   display: block;
+   max-width: 90%;
+  margin-top: 20px;
+  
+ }
+ 
+ figcaption {
+   font-family: 'Rokkitt', serif;
+   color: #AA5DA3;
+   background: #FFDED6;
+   bottom: 0;
+   padding: 10px;
+  position: absolute;
+   width: 280px;
+ }
+
+ /* First Frame  */
+ figure figcaption {
+   opacity: 1;
+   bottom: -116px;
+   transition: all 1s;
+ }
+ 
+ /* Last Frame */
+ figure:hover figcaption {
+  bottom: 0;
+   opacity: 1;
+ }
+ 
+ /* Lighbox concept borrowed from Gregory Schier (http://codepen.io/gschier/pen/HCoqh/). */
+ 
+ .lightbox {
+ 	/** Default lightbox to hidden */
+ 	display: none;
+ 
+ 	/** Position and style */
+ 	position: fixed;
+ 	z-index: 999;
+ 	width: 100%;
+ 	height: 100%;
+ 	text-align: center;
+ 	top: 0;
+ 	left: 0;
+ 	background: rgba(254, 146, 185, 0.68);
+ }
+ 
+ .lightbox img {
+ 	/** Pad the lightbox image */
+ width: auto;
+ 	max-height: 90%;
+ 	margin-top: 2%;
+   opacity: 80%;
+}
+ 
+ .lightbox:target {
+ 	/** Remove default browser outline */
+ 	outline: none;
+ 
+ 	/** Unhide lightbox **/
+ 	display: block;
+ }
+
+  .img1 {
+  width: 300px;
+  height: 200px;
+}
+
+.img2 {
+  width: 300px;
+  height: 200px;
+}
+
+.img3 {
+  width: 300px;
+  height: 200px;
+}
+
+.img4 {
+  width: 300px;
+  height: 200px;
+}
+
+.img5 {
+  width: 300px;
+  height: 200px;
+}
+
+.img6 {
+  width: 300px;
+  height: 200px;
+}
+  
+.footer {
+  color:  white;
+  text-align: left;
+}
+
+/* Contact Form */
+label, input, textarea {
+  font-family: 'Raleway', sans-serif;
+  color: #058DC5;
+  display: block;
+  margin: auto;
+  display: block;
+  left-margin: 50%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  font-family: 'Rokkitt', serif;
+  border: 0;
+  padding: 1em;
+}
+
+input[type="email"] {
+ font-family: 'Rokkitt', serif;
+  border: 0;
+  padding: 1em;
+  
+}
+
+input[type="submit"] {
+  font-family: 'Rokkitt', serif;
+  background: white;
+}
+
+:focus {
+  background: #FE92B9;
+  transition: background .25s;
+  color: white;
+}
+
+button {
+  background: #FFDED6;
+  border: none;
+  color: #FE92B9;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: #E7AFE0;
+  background: #E7FDFB;
+  border-radius: 50%;
+}
+
+form {
+  background: none;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.form {
+  background: rgba(5, 141, 197, 0.43);
+  border-radius: 5%;
+}
+
+/* Homepage */
+
+  .home {
+  background: rgba(5, 141, 197, 0.43);
+  border-radius: 5%;
+    
+    padding: 10px;
+}
+  
+  .intro {
+  text-align: center;
+}
+.introlist {
+ display: inline-block; 
+  text-align: left;
+  
+}
